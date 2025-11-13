@@ -3,9 +3,9 @@
 #include "B2.h"
 
 class D2 : public B1, private B2 {
-    int d2;
+    string text;
 public:
-    D2(int a, int b, int c);
-    ~D2();
-    void showD2();
+    D2(char c, int n, float ff, string s, string t);
+    virtual ~D2();
+    void ShowInfo() const override;
 };

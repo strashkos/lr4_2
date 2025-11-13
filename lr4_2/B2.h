@@ -1,12 +1,15 @@
 #pragma once
 #include <iostream>
+#include <string>
+#include "IInfo.h"
 using namespace std;
 
-class B2 {
+class B2 : public IInfo {
 protected:
-    int y;
+    float f;
+    string str;
 public:
-    B2(int val = 2);
+    B2(float ff = 0, string s = "");
     virtual ~B2();
-    void showB2();
+    void ShowInfo() const override;
 };

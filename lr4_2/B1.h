@@ -1,12 +1,14 @@
 #pragma once
 #include <iostream>
+#include "IInfo.h"
 using namespace std;
 
-class B1 {
+class B1 : public IInfo {
 protected:
-    int x;
+    char ch;
+    int num;
 public:
-    B1(int val = 1);
+    B1(char c = ' ', int n = 0);
     virtual ~B1();
-    void showB1();
+    void ShowInfo() const override;
 };

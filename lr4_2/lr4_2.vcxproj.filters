@@ -50,7 +50,7 @@
     <ClInclude Include="D3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="IDisplay.h">
+    <ClInclude Include="IInfo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
