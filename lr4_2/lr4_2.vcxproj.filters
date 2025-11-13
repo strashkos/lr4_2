@@ -24,12 +24,30 @@
     <ClCompile Include="B2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="B1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="B2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
