@@ -50,5 +50,8 @@
     <ClInclude Include="D3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="IDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
